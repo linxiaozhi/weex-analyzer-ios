@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'WeexAnalyzer/Sources/WeexAnalyzer.h','WeexAnalyzer/Sources/Menu/WXAMenuItem.h'
   s.source_files        = 'WeexAnalyzer/*.{c,h,m,S}','WeexAnalyzer/Source/**/*.{c,h,m,S}'
 
+  s.dependency 'WeexSDK'
 
 
 end
